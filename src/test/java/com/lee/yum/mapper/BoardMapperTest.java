@@ -1,16 +1,16 @@
 package com.lee.yum.mapper;
 
-import com.lee.yum.model.BoardDTO;
+import com.lee.yum.board.mapper.BoardMapper;
+import com.lee.yum.board.model.BoardDTO;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
 public class BoardMapperTest {
 
 @Autowired
-public  BoardMapper mapper;
+public BoardMapper mapper;
 
     @Test
     public void boardList() {
